@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "821603375577",
+    "firebase_url": "https://chatwithjames-777.firebaseio.com",
+    "project_id": "chatwithjames-777",
+    "storage_bucket": "chatwithjames-777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821603375577:android:115545c929d7fa462c21c8",
+        "android_client_info": {
+          "package_name": "com.jamestrada.chatwithjames"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821603375577-bli5aj3bsq8h19dkv3gvuh7esf06ldiq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMj12Cs0HQq92A9NyLEXwXGlEkfZ48Q-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821603375577-bli5aj3bsq8h19dkv3gvuh7esf06ldiq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
