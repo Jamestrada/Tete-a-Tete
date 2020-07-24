@@ -3,6 +3,7 @@ package com.jamestrada.chatwithjames.messages
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.ChildEventListener
 import com.google.firebase.database.DataSnapshot
@@ -30,11 +31,16 @@ class ChatLogActivity : AppCompatActivity() {
 
     var toUser: User? = null
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_chat_log)
 
         recyclerview_chat_log.adapter = adapter
+        val layoutManager = LinearLayoutManager(this)
+        layoutManager.stackFromEnd = true // scroll to bottom when keyboard pops
+        recyclerview_chat_log.layoutManager = layoutManager
+
 
         toUser = intent.getParcelableExtra<User>(NewMessageActivity.USER_KEY)
         supportActionBar?.title = toUser?.username
@@ -46,6 +52,7 @@ class ChatLogActivity : AppCompatActivity() {
             Log.d(TAG, "Attempting to send message...")
             performSendMessage()
         }
+
     }
 
     private fun listenForMessages() {
