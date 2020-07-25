@@ -19,7 +19,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/jamestrada/chatwithjames/messages/ChatLogActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/jamestrada/chatwithjames/messages/ChatLogActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat_log.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chat_log.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +144,22 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="314" y="333" key="AndroidCreateResourceFileDialog/-1366.23.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1595348483002" />
+    <state width="1411" height="261" key="GridCell.Tab.0.bottom" timestamp="1595552582329">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1411" height="261" key="GridCell.Tab.0.bottom/-1366.18.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1595552582329" />
+    <state width="1411" height="261" key="GridCell.Tab.0.center" timestamp="1595552582328">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1411" height="261" key="GridCell.Tab.0.center/-1366.18.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1595552582328" />
+    <state width="1411" height="261" key="GridCell.Tab.0.left" timestamp="1595552582327">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1411" height="261" key="GridCell.Tab.0.left/-1366.18.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1595552582327" />
+    <state width="1411" height="261" key="GridCell.Tab.0.right" timestamp="1595552582328">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1411" height="261" key="GridCell.Tab.0.right/-1366.18.1366.1001/0.23.1792.1097@0.23.1792.1097" timestamp="1595552582328" />
     <state x="100" y="123" width="1253" height="897" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1595353593096">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

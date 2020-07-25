@@ -44,6 +44,9 @@ class ChatLogActivity : AppCompatActivity() {
 
         toUser = intent.getParcelableExtra<User>(NewMessageActivity.USER_KEY)
         supportActionBar?.title = toUser?.username
+        val uri = toUser?.profileImageUrl
+        val icon = Picasso.get().load(uri)
+        supportActionBar?.setIcon(icon)
 
 //        setupSomeData()
         listenForMessages()
@@ -69,9 +72,9 @@ class ChatLogActivity : AppCompatActivity() {
 
                     if (chatMessage.fromId == FirebaseAuth.getInstance().uid) {
                         val currentUser = LatestMessagesActivity.currentUser
-                        adapter.add(ChatFromItem(chatMessage.text, currentUser))
+                        adapter.add(ChatToItem(chatMessage.text, currentUser)) // current user will be on the right side of chat
                     } else {
-                        adapter.add(ChatToItem(chatMessage.text, toUser))
+                        adapter.add(ChatFromItem(chatMessage.text, toUser)) // to user will be on the left side of chat
                     }
                 }
                 // scroll all the way down when opening a chat
